@@ -5,22 +5,8 @@
  */
 
 const solution = (a) => {
-  if (a>5) {
-    return true;
-  }
-  if (a===5) {
-    return false;
-  }
-  if (a===0) {
-    return false;
-  }
-  if (a<0) {
-    return false;
-  }
-};
-
-
-solution(5);
+  return a>5
+}
 module.exports = {
   solution,
 };

@@ -7,7 +7,9 @@
  */
 
 const solution = (a, b) => {
-  return a+b();}
+     return()=>{
+       return a+b; 
+}
 };
 
 module.exports = {

@@ -6,10 +6,9 @@
  * @param {number} c
  */
 
-const solution = (a, b) => {
-  return 0;
-};
-
+const solution = (a, b) => { 
+      return a() + b();
+}
 module.exports = {
   solution,
 };

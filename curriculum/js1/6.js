@@ -5,8 +5,12 @@
  * @returns {number}
  */
 
-const solution = (a) => {
-  return 0;
+const sumDivisors = (num, i=1, sum=0) => {
+  if (i === num) return sum;
+  if (!(num%i)) {
+    sum + = i;
+  }
+  return sumDivisors (num, i + 1, sum)
 };
 
 module.exports = {
